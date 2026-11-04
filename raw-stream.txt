@@ -1,0 +1,8 @@
+﻿{"type":"userMessage","data":{"id":"cmw2b618w0005jm08tnfkfofh","chatId":"cmw2a14py000yju08cky6284g","role":"user","content":"On Solana, token 2uQsyo1fXXQkDtcpXnLofWy88PxcvnfH2L8FPSE62FVU (jWSOL, Jupiter Lend WSOL) trades around $97 with a roughly $755K market cap but is doing about $7.1M of 24h volume, close to 9x its own market cap, while price is up only 0.85%. Given that divergence between turnover and price, what specific price level or on-chain metric change would prove this is distribution rather than accumulation, and at what threshold does the long thesis break?","createdAt":"2026-11-04T16:05:34.545Z"}}
+{"type":"status","phase":"report","label":"Gathering crypto context…"}
+{"type":"status","phase":"research","label":"Web searching official sources…"}
+{"type":"status","phase":"draft","label":"Drafting response…"}
+{"type":"status","phase":"synth","label":"Finalizing answer…"}
+{"type":"synthStart"}
+{"type":"error","error":"Streaming failed"}
+

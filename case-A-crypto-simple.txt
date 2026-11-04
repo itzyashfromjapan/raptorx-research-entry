@@ -1,0 +1,8 @@
+﻿{"type":"userMessage","data":{"id":"cmw2b6nw9000bjh081qtdz0np","chatId":"cmw2a14py000yju08cky6284g","role":"user","content":"What is the current price of SOL?","createdAt":"2026-11-04T16:06:03.897Z"}}
+{"type":"status","phase":"report","label":"Gathering crypto context…"}
+{"type":"status","phase":"research","label":"Web searching official sources…"}
+{"type":"status","phase":"draft","label":"Drafting response…"}
+{"type":"status","phase":"synth","label":"Finalizing answer…"}
+{"type":"synthStart"}
+{"type":"error","error":"Streaming failed"}
+
