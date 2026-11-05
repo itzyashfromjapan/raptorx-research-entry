@@ -4,3 +4,16 @@
 2026-11-05 07:19:49 Q1 status=200 len=961 ok=False
 2026-11-05 07:22:51 REPORT fail status=500
 2026-11-05 07:22:52 Q1 status=200 len=961 ok=False
+2026-11-05 07:25:54 REPORT fail status=500
+2026-11-05 07:25:55 Q1 status=200 len=961 ok=False
+2026-11-05 07:28:21 worker start
+2026-11-05 07:28:23 REPORT fail status=500
+2026-11-05 07:28:24 chatId=cmw2wce3t000llc0814vlh7ye
+2026-11-05 07:28:46 Q1 status=0 len=0 ok=False
+2026-11-05 07:32:29 REPORT fail status=500
+2026-11-05 07:32:30 Q1 status=200 len=961 ok=False
+2026-11-05 07:34:36 worker start
+2026-11-05 07:34:37 REPORT fail status=500
+2026-11-05 07:34:39 chatId=cmw2wkf8c000il207wes32ddw
+2026-11-05 07:34:40 Q1 status=200 len=961 ok=False
+2026-11-05 07:35:00 another worker already running (pid 21232) - exiting

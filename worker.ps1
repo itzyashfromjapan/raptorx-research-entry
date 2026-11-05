@@ -33,6 +33,16 @@ $questions = @(
   'If the report shows momentum and the volume profile disagreeing, which one do you trust for a 15m decision on this token and why - and what is the single number that would make you reverse that call?'
 )
 
+$lock = Join-Path $dir 'worker.lock'
+if (Test-Path $lock) {
+  $old = 0
+  try { $old = [int](Get-Content $lock -Raw).Trim() } catch {}
+  $running = $false
+  try { $running = [bool](Get-Process -Id $old -ErrorAction SilentlyContinue) } catch {}
+  if ($running) { L "another worker already running (pid $old) - exiting"; exit 0 }
+}
+Set-Content -Path $lock -Value $PID -Encoding ASCII
+
 L "worker start"
 $chatId = $null
 $qIndex = 0
