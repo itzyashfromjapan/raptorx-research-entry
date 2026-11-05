@@ -5,6 +5,15 @@ param(
 $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
+Add-Type @'
+using System;
+using System.Runtime.InteropServices;
+public class Dpi {
+  [DllImport("user32.dll")] public static extern bool SetProcessDPIAware();
+  [DllImport("user32.dll")] public static extern bool SetProcessDPIUnaware();
+}
+'@
+[Dpi]::SetProcessDPIAware() | Out-Null
 
 $bounds = [System.Windows.Forms.Screen]::PrimaryScreen.Bounds
 if ($W -le 0) { $W = $bounds.Width }

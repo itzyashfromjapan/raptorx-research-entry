@@ -1,9 +1,0 @@
-CREATE status=400 body={"error":"userId is required"}
-FALLBACK chat=cmw2a14py000yju08cky6284g
-attempt=1 status=200 len=961
-attempt=2 status=200 len=961
-attempt=3 status=200 len=961
-attempt=4 status=200 len=961
-attempt=5 status=200 len=961
-attempt=6 status=200 len=961
-attempt=7 status=200 len=961

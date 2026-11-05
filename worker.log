@@ -1,0 +1,6 @@
+﻿2026-11-05 07:19:45 worker start
+2026-11-05 07:19:47 REPORT fail status=500
+2026-11-05 07:19:48 chatId=cmw2w1buq0003k007pkffkmlm
+2026-11-05 07:19:49 Q1 status=200 len=961 ok=False
+2026-11-05 07:22:51 REPORT fail status=500
+2026-11-05 07:22:52 Q1 status=200 len=961 ok=False
